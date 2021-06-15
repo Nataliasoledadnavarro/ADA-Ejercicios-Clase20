@@ -209,7 +209,6 @@ input {
   - Al hacer hover sobre el contenedor, rotar cada cuadrado a la derecha sobre el eje Z, con una duración de 0.3 segundos. El primero debe rotar 90 grados, el 2do 180 grados, el 3ro 270 grados y el 4t0 360 grados.
 */
 
-
 /* 
   Ejercicio 3
   ----------------------------------
@@ -227,37 +226,54 @@ input {
   ----------------------------------
   - Al hacer hover sobre el contenedor, convertir a cada cuadrado en un círculo con border-radius, teniendo el 1ro una duración de 0.3 segundos, el 2do de 0.6 segundos, el 3ro de 0.9 segundos y el 4to de 1.2 segundos.  
 */
-.ejercicio-5 :nth-child(1):hover{
-    border-radius: 50%;
-    transition: 0.3s;
-  }
+.ejercicio-5 :nth-child(1):hover {
+  border-radius: 50%;
+  transition: 0.3s;
+}
 
-  .ejercicio-5 :nth-child(2):hover{
-    border-radius: 50%;
-    transition: 0.6s;
-  }
+.ejercicio-5 :nth-child(2):hover {
+  border-radius: 50%;
+  transition: 0.6s;
+}
 
-  .ejercicio-5 :nth-child(3):hover{
-    border-radius: 50%;
-    transition: 0.9s;
-  }
+.ejercicio-5 :nth-child(3):hover {
+  border-radius: 50%;
+  transition: 0.9s;
+}
 
-  .ejercicio-5 :nth-child(4):hover{
-    border-radius: 50%;
-    transition: 1.2s;
-  }
+.ejercicio-5 :nth-child(4):hover {
+  border-radius: 50%;
+  transition: 1.2s;
+}
 /* 
   Ejercicio 6
   ----------------------------------
   - Al hacer hover sobre el botón, cambiar el color de fondo por #d1c4e9 y al presionarlo, por #b39ddb. Darle una transición con 0.3 segundos de duración.  
 */
-
+.boton {
+  transition: 0.3s;
+}
+.boton:hover {
+  background-color: #d1c4e9;
+}
+.boton:active {
+  background-color: #b39ddb;
+}
 /* 
   Ejercicio 7
   ----------------------------------
   - Al hacer hover sobre el botón, cambiar el color de fondo por #ec407a y el color de texto por #000000, y al presionarlo, cambiar el color de fondo por #e91e63. Darle una transición con 0.3 segundos de duración.  
 */
-
+.boton {
+  transition: 0.3s;
+}
+.boton:hover {
+  background-color: #ec407a;
+  color: #000000;
+}
+.boton:active {
+  background-color: #e91e63;
+}
 /* 
   Ejercicio 8
   ----------------------------------
